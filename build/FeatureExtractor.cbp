@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="FeatureExtractor" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\CGAL\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\;CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\CMake\;CMake Files\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\usr\share\OpenCV\;CMake Files\..\..\local\;CMake Files\..\..\local\share\;CMake Files\..\..\local\share\pcl-1.7\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/huifang/huifang/qt_workspace/FeatureExtractor/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/huifang/huifang/qt_workspace/FeatureExtractor/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/huifang/huifang/qt_workspace/FeatureExtractor/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/huifang/huifang/qt_workspace/FeatureExtractor/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/huifang/huifang/qt_workspace/FeatureExtractor/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="FeatureExtractor">
+         <Option output="/home/huifang/huifang/qt_workspace/FeatureExtractor/build/FeatureExtractor" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/huifang/huifang/qt_workspace/FeatureExtractor/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCGAL_USE_MPFR" />
+            <Add option="-DCGAL_USE_GMP" />
+            <Add option="-DDISABLE_PCAP" />
+            <Add option="-DDISABLE_PNG" />
+            <Add option="-DEIGEN_USE_NEW_STDVECTOR" />
+            <Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET" />
+            <Add option="-DFLANN_STATIC" />
+            <Add option="-Dqh_QHpointer" />
+            <Add directory="/home/huifang/huifang/local/include/pcl-1.7" />
+            <Add directory="/home/huifang/huifang/qt_workspace/FeatureExtractor/build" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/ni" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/openni2" />
+            <Add directory="/usr/include/vtk-5.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/huifang/huifang/qt_workspace/FeatureExtractor/build/Makefile&quot;  VERBOSE=1 FeatureExtractor" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/huifang/huifang/qt_workspace/FeatureExtractor/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/huifang/huifang/qt_workspace/FeatureExtractor/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/huifang/huifang/qt_workspace/FeatureExtractor/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="FeatureExtractor/fast">
+         <Option output="/home/huifang/huifang/qt_workspace/FeatureExtractor/build/FeatureExtractor" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/huifang/huifang/qt_workspace/FeatureExtractor/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCGAL_USE_MPFR" />
+            <Add option="-DCGAL_USE_GMP" />
+            <Add option="-DDISABLE_PCAP" />
+            <Add option="-DDISABLE_PNG" />
+            <Add option="-DEIGEN_USE_NEW_STDVECTOR" />
+            <Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET" />
+            <Add option="-DFLANN_STATIC" />
+            <Add option="-Dqh_QHpointer" />
+            <Add directory="/home/huifang/huifang/local/include/pcl-1.7" />
+            <Add directory="/home/huifang/huifang/qt_workspace/FeatureExtractor/build" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/ni" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/openni2" />
+            <Add directory="/usr/include/vtk-5.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/huifang/huifang/qt_workspace/FeatureExtractor/build/Makefile&quot;  VERBOSE=1 FeatureExtractor/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/huifang/huifang/qt_workspace/FeatureExtractor/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/huifang/huifang/qt_workspace/FeatureExtractor/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/huifang/huifang/qt_workspace/FeatureExtractor/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/huifang/huifang/qt_workspace/FeatureExtractor/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/huifang/huifang/qt_workspace/FeatureExtractor/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/huifang/huifang/qt_workspace/FeatureExtractor/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/huifang/huifang/qt_workspace/FeatureExtractor/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/huifang/huifang/qt_workspace/FeatureExtractor/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/easyViewer.cpp">
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/easysaver.cpp">
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/fastsegmentation.cpp">
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/featureextractor.cpp">
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/main.cpp">
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/seg/multiFrameMerge.cpp">
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/seg/objPartition.cpp">
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/seg/surfaceSegment.cpp">
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/segmentercy.cpp">
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/easyViewer.h">
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/easysaver.h">
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/fastsegmentation.h">
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/featureextractor.h">
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/point_types_hf.h">
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/seg/MyPointRepresentation.h">
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/seg/multiFrameMerge.h">
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/seg/objPartition.h">
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/seg/surfaceSegment.h">
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/seg/verticalCloudMerge.h">
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/segmentercy.h">
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/superpixel/superfeature.h">
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/opencv.cmake">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/LibFindMacros.cmake">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/../../../../../usr/local/lib/CGAL/CGALConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\CGAL\" />
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/../../../../../usr/local/lib/CGAL/UseCGAL.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\CGAL\" />
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/../../../../../usr/local/lib/CGAL/CGAL_Macros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\CGAL\" />
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/../../../../../usr/local/lib/CGAL/CGAL_VersionUtils.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\CGAL\" />
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/../../../../../usr/local/lib/CGAL/CGAL_Common.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\CGAL\" />
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/../../../../../usr/local/lib/CGAL/CGAL_Macros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\CGAL\" />
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/../../../../../usr/local/lib/CGAL/CGAL_SetupFlags.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\CGAL\" />
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/../../../../../usr/local/lib/CGAL/CGAL_GeneratorSpecificSettings.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\CGAL\" />
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/../../../../../usr/local/lib/CGAL/CGAL_TweakFindBoost.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\CGAL\" />
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/../../../../../usr/lib/vtk-5.8/VTKConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/../../../../../usr/lib/vtk-5.8/VTKConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/../../../../../usr/lib/vtk-5.8/VTKTargets.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/../../../../../usr/lib/vtk-5.8/VTKTargets-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/../../../../../usr/lib/vtk-5.8/UseVTK.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/../../../../../usr/lib/vtk-5.8/VTKConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/../../../../../usr/lib/vtk-5.8/VTKConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/../../../../../usr/lib/vtk-5.8/UseVTK.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/../../../../../usr/lib/vtk-5.8/CMake/vtkMakeInstantiator.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.8\CMake\" />
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/../../../../../usr/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/../../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/../../local/share/pcl-1.7/PCLConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\local\share\pcl-1.7\" />
+      </Unit>
+      <Unit filename="/home/huifang/huifang/qt_workspace/FeatureExtractor/../../local/share/pcl-1.7/PCLConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\local\share\pcl-1.7\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
